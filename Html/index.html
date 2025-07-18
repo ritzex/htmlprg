@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ritik Dhital - Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1a73e8;
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-weight: 600;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.8em;
+            margin-bottom: 30px;
+            color: #1a73e8;
+        }
+
+        .about, .projects, .experience, .collaborations {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .about p, .experience p, .collaborations p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .project {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+
+        .experience ul, .collaborations ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .experience ul li, .collaborations ul li {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .experience ul li:hover, .collaborations ul li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            background-color: #1a73e8;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 60px;
+            border-top: 5px solid #ffd700;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1em;
+            color: #333;
+            transition: border-color 0.3s;
+        }
+
+        .contact-form input:focus, .contact-form textarea:focus {
+            border-color: #1a73e8;
+            outline: none;
+        }
+
+        .contact-form input::placeholder, .contact-form textarea::placeholder {
+            color: #999;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .contact-form button {
+            background-color: #1a73e8;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #1557b0;
+        }
+
+        .software-logos {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .software-logos img {
+            width: 60px;
+            height: 60px;
+            transition: transform 0.3s;
+        }
+
+        .software-logos img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ritik Dhital</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#collaborations">Collaborations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about">
+            <p>Hello, I'm <strong> Ritik Dhital, </strong> a passionate <strong>Graphics Designer</strong> with over <strong>3+ years of experience</strong> in creating visually stunning designs. I specialize in using tools like <strong>Adobe Photoshop, Canva, and Illustrator</strong> to bring ideas to life. I am fluent in both <strong>English</strong> and <strong>Nepali</strong>, and I have collaborated with several high-profile clients and organizations.</p>
+            <p>Lastly, I was leading the <strong> Triple K Corp Production team,</strong> overseeing creative projects and ensuring top-notch quality while pushing the boundaries of design to deliver exceptional results.
+<br>
+<br>
+Special Thanks To Owner of <strong> Khel Ko Kura </strong> 
+
+
+
+
+
+
+
+
+</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <ul>
+                <li><strong>3+ Years</strong> of professional experience in <strong>Graphics Design</strong>.</li>
+                <li>Proficient in <strong>Adobe Photoshop, Canva, and Illustrator</strong>.</li>
+                <li>Managed and executed design projects for <strong> Biratnagar Kings Fan Tv, <strong> Biratnagar Kings</strong>, <strong>Khel Ko Kura</strong>, <strong> Hub It Training</strong>, <strong> Dmake Vision </strong>, <strong> NPL Adarsh</strong>, <strong> Mithila Warriors . etc </li>
+                <li>Collaborated with various social media platforms to create engaging visual content.</li>
+            </ul>
+            <div class="software-logos">
+                <img src="https://i.postimg.cc/QtW2dXDn/Adobe-Photoshop-Logo.png" alt="Photoshop Logo">
+                <img src="https://i.postimg.cc/YCwJqcDd/Canva.png" alt="Canva Logo">
+                <img src="https://i.postimg.cc/Gts8hTgT/adobe-illustrator-seeklogo.png" alt="Illustrator Logo">
+            </div>
+        </div>
+    </section>
+  <section id="projects">
+
+ <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="img\Dharan Vlog.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Photoshop thumbnail showing the entertainment blogging in Dharan By Khemey Vlogs.</p>
+            </div>
+            <div class="project">
+                <img src="img\Client 103 Thumbnail.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A vibrant Photoshop thumbnail celebrating the New Year with festive colors, fireworks, and joyful vibes.</p>
+  </div>
+ <div class="project">
+                <img src="img\Gharmai Zoo 2.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A Photoshop designed Thumbnail For Khemey Vlogs</p>
+  </div>
+<div class="projects">
+            <div class="project">
+                <img src="img\Thumbnail football.jpg" alt="Project 4">
+                <h3>Project 4</h3>
+                <p>Photoshop thumbnail of Football as per new player Yamal Rise.</p>
+            </div>
+            <div class="project">
+                <img src="https://i.postimg.cc/5yhY5DGG/Watch-Party.jpg" alt="Project 5">
+                <h3>Project 5</h3>
+                <p>A vibrant Photoshop thumbnail for Kaji Ji related to cricket live stream.</p>
+  </div>
+ <div class="project">
+                <img src="img\Sidhhant Daju Accident.jpg" alt="Project 6">
+                <h3>Project 6</h3>
+                <p>A challenging themed thumbnail designed in Photoshop, Showcasing the reality of Sidhhant Acciddent.</p>
+  </div>
+
+
+
+    </section>
+
+<section id="Sports Posters">
+ <h2>Sports Posters</h2>
+        <div class="Sports Posters">
+<ul>
+ 
+ <div class="projects">
+            <div class="project">
+                <img src="img\Nepal Cricket Team.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A poster for Nepali Cricket Team showcasing that the teams is going to play against Netherlands.</p>
+            </div>
+
+ <div class="projects">
+            <div class="project">
+                <img src="img\Arif Sheikh.jpg" alt="Project 1">
+                <h3>Project 2</h3>
+                <p>A poster of Arif Sheikh who showed the brilliant performance.</p>
+            </div>
+
+ <div class="projects">
+            <div class="project">
+                <img src="img\Temba Bavuma.jpg" alt="Project 1">
+                <h3>Project 3</h3>
+                <p>A poster for SouthAfrica Team Wishing them for a World Test Championship Final.</p>
+            </div> 
+
+</div>
+</ul>
+
+ <section id="projects">
+        <h2>Some Extra Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="img\FOOD POSTER.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A restaurant advertisement poster, designed in Photoshop, showcasing Nepalese cuisine.</p>
+            </div>
+            <div class="project">
+                <img src="img\Dmake Poster 3.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A Photoshop-made poster offering graphic design services with "Are you hiring?"</p>
+            </div>
+            <div class="project">
+                <img src="img\Poster 1 My Work.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A "Thank You" poster for 1K YouTube subscribers, designed in Photoshop to celebrate the milestone.</p>
+
+            </div>
+ <div class="project">
+                <img src="img\JBN Manipulation.jpg" alt="Project 3">
+                <h3>Project 4</h3>
+                <p>A Manipulation poster designed in Photoshop for an IT solution social media page, crafted to enhance brand presence and engagement.</p>
+
+            </div>
+     <div class="project">
+                <img src="img\100 wkts.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A poster for Khel Ko Kura, featuring the official managing production team.</p>
+            </div>
+<div class="project">
+                <img src="img\Rock Head Sahara.jpg" alt="Project 3">
+                <h3>Project 6</h3>
+                <p>A poster designed in Photoshop Related to Social Media of Rockheads Nepal Band.</p>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="collaborations">
+        <h2>Collaborations</h2>
+        <div class="collaborations">
+            <ul>
+                <li><strong>Biratnagar Kings</strong> (NPL Team)</li>
+ <div class="projects">
+            <div class="project">
+                <img src="img\Give a name.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A collaboration poster for Biratnagar Kings NPL team, designed in Photoshop.</p>
+            </div>
+            <div class="project">
+                <img src="img\Trophee Reveal.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A collaboration poster for Biratnagar Kings NPL, showcasing a trophy with a Kalapathar from the Koshi mountain inside.</p>
+            </div>
+            <div class="project">
+                <img src="img\King Sandeep.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A collaboration poster for Biratnagar Kings featuring King Sandeep Lamichhane.</p>
+            </div>
+        </div>
+</ul>
+<ul>
+   <li><strong> Mithila Warriors (MPL Season 3 Team) </strong></li>
+
+ <div class="projects">
+            <div class="project">
+                <img src="img\Into The Final.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A poster for Mithila Warriors showcasing that the teams is qualified for final.</p>
+            </div>
+
+ <div class="projects">
+            <div class="project">
+                <img src="img\Final game.jpg" alt="Project 1">
+                <h3>Project 2</h3>
+                <p>A poster for Mithila Warriors featuring the final game of tournament.</p>
+            </div>
+
+ <div class="projects">
+            <div class="project">
+                <img src="img\Champions Poster.jpg" alt="Project 1">
+                <h3>Project 3</h3>
+                <p>A poster for Mithila Warriors Congratulating them for a victory over Saptari Balan Bihul.</p>
+            </div> 
+</div>
+</ul>
+<ul>
+                <li><strong>Ritzex </strong> (Founder)</li>
+ <div class="software-logos">
+  <img src="img\Ritzex Logo Water mark.png" alt="Ritzexlogo">
+ </div>
+        </div>
+            </ul>
+        </div>
+    </section>
+<section id="contact">
+    <h2>Get in Touch</h2>
+    <div class="contact-form">
+        <form>
+            <input type="text" name="name" placeholder="Your Full Name" required>
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2022 Ritik Dhital. All rights reserved.</p>
+</footer>
+</body>
+</html>
